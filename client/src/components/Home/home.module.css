@@ -1,0 +1,65 @@
+.container {
+    background-color: #F0F2F4;
+}
+
+.container select {
+    background-color: #F7F7F7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 16px;
+    padding: 6px;
+
+    width: 180px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+
+}
+
+.container select option {
+    background-color: #260000;
+    color: #EFBA34;
+}
+
+.container select option:checked {
+    background-color: #EFBA34;
+    color: #260000;
+}
+
+.container select:focus {
+    outline: none;
+    border: 1px solid #EFBA34;
+}
+
+.container button {
+    background-color: #260000;
+    border-radius: 8px;
+    border: none;
+    color: #F0F2F4;
+    width: 80px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 8px;
+
+}
+
+.container button:hover {
+    border: 1px solid #EFBA34;
+    background-color: #725919;
+}
+
+
+.container input {
+    background-color: #F7F7F7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 16px;
+    padding: 6px;
+
+    width: 180px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}

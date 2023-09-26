@@ -1,0 +1,27 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images2.alphacoders.com/121/1215709.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container button {
+
+    color: #F0F2F4;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #260000;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container button:hover {
+    border: 2px solid red;
+    color: red;
+}

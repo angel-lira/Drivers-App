@@ -1,0 +1,29 @@
+.container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.containerCards {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.containerPagination {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
