@@ -7,10 +7,10 @@ import store from "./redux/store.js";
 import axios from "axios";
 import "./index.css";
 //Deploy
-// axios.defaults.baseURL = "";
+axios.defaults.baseURL = "https://drivers-appdeploy-production.up.railway.app";
 
 //Local
-axios.defaults.baseURL = "http://localhost:3001/";
+// axios.defaults.baseURL = "http://localhost:3001/";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
