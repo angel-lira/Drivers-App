@@ -2,7 +2,9 @@ const axios = require("axios");
 const { Driver, Team } = require("../../db");
 
 const getDrivers = async () => {
-  const url = "http://localhost:5000/drivers";
+  const url = `${
+    process.env.PRODUCTION_API_URL || "http://localhost:5000"
+  }/drivers`;
   const noImage =
     "https://cdn.pixabay.com/photo/2013/07/12/15/36/motorsports-150157_960_720.png";
 

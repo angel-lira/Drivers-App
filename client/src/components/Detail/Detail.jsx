@@ -5,7 +5,7 @@ import style from "./detail.module.css";
 const Detail = () => {
   const [driver, setDriver] = useState({});
   const { id } = useParams();
-  const endpoint = "http://localhost:3001/drivers/";
+  const endpoint = "/drivers/";
 
   useEffect(() => {
     axios.get(`${endpoint}${id}`).then((response) => {

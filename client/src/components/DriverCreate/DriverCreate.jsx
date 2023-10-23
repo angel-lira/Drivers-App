@@ -127,7 +127,7 @@ const DriverCreate = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const endpoint = "http://localhost:3001/drivers";
+    const endpoint = "/drivers";
 
     if (
       drivers.some(

@@ -3,7 +3,7 @@ import axios from "axios";
 export const getDrivers = () => {
   return async (dispatch) => {
     try {
-      const endpoint = "http://localhost:3001/drivers";
+      const endpoint = "/drivers";
       const response = await axios.get(endpoint);
 
       return dispatch({
@@ -18,7 +18,7 @@ export const getDrivers = () => {
 export const getTeams = () => {
   return async (dispatch) => {
     try {
-      const endpoint = "http://localhost:3001/teams";
+      const endpoint = "/teams";
       const response = await axios.get(endpoint);
 
       return dispatch({
@@ -33,7 +33,7 @@ export const getTeams = () => {
 export const searchDrivers = (name) => {
   return async (dispatch) => {
     try {
-      const endpoint = "http://localhost:3001/drivers/name?q=";
+      const endpoint = "/drivers/name?q=";
       const response = await axios.get(`${endpoint}${name}`);
 
       return dispatch({
