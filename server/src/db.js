@@ -11,16 +11,12 @@ const database = new Sequelize(
     native: false,
   }
 );
+
 // const database = new Sequelize(DB_DEPLOY, {
-//   host: "localhost",
-//   dialect: "postgres",
-//   dialectOptions: {
-//     ssl: {
-//       require: true,
-//       rejectUnauthorized: false,
-//     },
-//   },
+//   logging: false,
+//   native: false,
 // });
+
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
