@@ -67,7 +67,7 @@ const getDriversByQuery = async (query) => {
   const combinedDrivers = [...formattedDbDrivers, ...apiDrivers];
 
   if (combinedDrivers.length === 0) {
-    throw new Error(`No se encontro el conductor: ${query}`);
+    throw new Error(`No se encontró el conductor: ${query}`);
   }
 
   const limitedDrivers = combinedDrivers.slice(0, 15);

@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./pagination.module.css";
 const Pagination = (props) => {
   return (

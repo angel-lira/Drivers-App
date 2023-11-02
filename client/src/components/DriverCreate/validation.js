@@ -54,7 +54,7 @@ export default (input) => {
     errors.image = "Debe ingresar una URL de imagen.";
     errors.allConditions = false;
   } else if (input.image === "ImageNotFound") {
-    errors.image = "No se encontro la imagen";
+    errors.image = "No se encontró la imagen";
     errors.allConditions = false;
   } else {
     if (!regexURL.test(input.image)) {

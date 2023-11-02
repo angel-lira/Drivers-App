@@ -13,8 +13,12 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY } = process.env;
 // );
 
 const database = new Sequelize(DB_DEPLOY, {
+  dialectModule: require("pg"),
   logging: false,
   native: false,
+  ssl: {
+    require: true,
+  },
 });
 
 const basename = path.basename(__filename);

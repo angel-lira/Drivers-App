@@ -20,7 +20,7 @@ const getDriversById = async (id) => {
     });
 
     if (!dbDriver) {
-      throw new Error(`No se encontro el conductor: ${id}`);
+      throw new Error(`No se encontró el conductor: ${id}`);
     }
 
     if (dbDriver) {
@@ -58,7 +58,7 @@ const getDriversById = async (id) => {
 
     return apiDrivers;
   } catch (error) {
-    throw new Error(`No se encontro el conductor: ${id}`);
+    throw new Error(`No se encontró el conductor: ${id}`);
   }
 };
 

@@ -44,7 +44,7 @@ const Detail = () => {
               </p>
               <div className={style.detailP}>
                 <p>
-                  <strong>Descripcion:</strong>
+                  <strong>Descripción:</strong>
                   {"\u00A0"}
                   {driver.description}
                 </p>
@@ -57,7 +57,7 @@ const Detail = () => {
             </div>
           </div>
         ) : (
-          <p>{`No se encontro el conductor: ${id}`}</p>
+          <p>{`No se encontró el conductor: ${id}`}</p>
         )}
       </div>
     </div>

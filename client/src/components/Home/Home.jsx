@@ -67,7 +67,7 @@ const Home = () => {
     dispatch(searchDrivers(search));
   };
 
-  // PAGINACION
+  // PAGINADO
   const [currentPage, setCurrentPage] = useState(1);
 
   return (
